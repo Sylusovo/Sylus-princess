@@ -1,3 +1,4 @@
+https://arcade.makecode.com/S85541-20415-75011-49010
 # Sylus-princess
 class SpriteKind:
     coins = SpriteKind.create()
