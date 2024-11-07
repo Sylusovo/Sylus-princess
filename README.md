@@ -9,7 +9,7 @@ def on_on_overlap(sprite, otherSprite):#Set the coins to be destroyed when the p
     info.change_score_by(5)
 sprites.on_overlap(SpriteKind.player, SpriteKind.coins, on_on_overlap)
 
-def on_countdown_end():#Set the game to end at the end of the countdown
+def on_countdown_end():#Set the game to end at the time countdown
     game.over(True, effects.bubbles)
 info.on_countdown_end(on_countdown_end)
 
